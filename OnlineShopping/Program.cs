@@ -6,7 +6,7 @@ namespace OnlineShopping
         {
             double total,discountPrice;
             
-            Console.WriteLine("Hey customer Your total amount of pursase : ");
+            Console.WriteLine("Hey customer Your total amount of purshase : ");
             total = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Your total amount is $ "+total);
             if (total > 100) { discountPrice = total-total * 1 / 10;
@@ -14,7 +14,7 @@ namespace OnlineShopping
             } 
             else if (total > 50) 
                 { discountPrice = total-total*5/100;
-                Console.WriteLine("Your amount after discount give $"+discountPrice);
+                Console.WriteLine("Your amount after discount $"+discountPrice);
             }else { Console.WriteLine("You are not eligle for discount "); }
 
 
